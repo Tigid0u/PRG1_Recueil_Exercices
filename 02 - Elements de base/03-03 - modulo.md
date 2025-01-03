@@ -13,16 +13,16 @@ En cas d'erreur, indiquez la raison.\
 
 | # | Expression | Résultat |
 |---| ---------- |---|
-| 1 | `j % i` | |
-| 2 | `n % i`  | |
-| 3 | `y % x`  | |
-| 4 | `y % i` | |
-| 5 | `-j % i` | |
-| 6 | `n % ++i` | |
-| 7 | `n++ % ++i` | |
+| 1 | `j % i` | 1 |
+| 2 | `n % i`  | 0 |
+| 3 | `y % x`  | Erreur |
+| 4 | `y % i` | Erreur, y est un double |
+| 5 | `-j % i` | -1 |
+| 6 | `n % ++i` | 4 |
+| 7 | `n++ % ++i` | 4 |
 
 
-    
+​    
 
 <details>
 <summary>Solution</summary>

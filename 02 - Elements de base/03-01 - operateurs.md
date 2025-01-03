@@ -22,6 +22,10 @@ cout << "D : i = " << i << " j = " << j << " k = " << k << endl;
 
 ~~~
 
+- A: i = 1 k = 0
+- B: i = 3 j = 4 k = 8
+- C: i = 9 j = 3 k = 9
+
 
 <details>
 <summary>Solution</summary>
