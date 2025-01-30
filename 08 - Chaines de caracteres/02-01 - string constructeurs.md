@@ -6,54 +6,55 @@ _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exéc
 
 
 
+1. |BC|
 
-1.
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 1);
 cout << '|' << s2 << '|' << endl;
 ~~~
 
-2.
+2. |C|
+
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 2, 3);
 cout << '|' << s2 << '|' << endl;
 ~~~
 
-3.	
+3.	||
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 3, 2);
 cout << '|' << s2 << '|' << endl;
 ~~~
 
-4.	
+4.	Erreur d'execution
 ~~~cpp
 string s1 = "ABC";
 string s2(s1, 4, 1);
 cout << '|' << s2 << '|' << endl;
 ~~~
 
-5.	
+5.	|ABC|
 ~~~cpp
 string s("ABC", 3);
 cout << '|' << s << '|' << endl;
 ~~~
 
-6.	
+6.	|ABC\0|
 ~~~cpp
 string s("ABC", 4);
 cout << '|' << s << '|' << endl;
 ~~~
 
-7.	
+7.	Comportement indéfini
 ~~~cpp
 string s("ABC", 5);
 cout << '|' << s << '|' << endl;
 ~~~
 
-8.	
+8.	|AAA|
 ~~~cpp
 string s(3, 'A');
 cout << '|' << s << '|' << endl;

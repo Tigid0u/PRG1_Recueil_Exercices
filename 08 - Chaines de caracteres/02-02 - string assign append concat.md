@@ -6,8 +6,8 @@ _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exéc
 
 
 
+1. |C|
 
-1.
 ~~~cpp
 string s1 = "ABC";
 string s2;
@@ -15,7 +15,8 @@ s2.assign(s1, 2, 3);
 cout << '|' << s2 << '|' << endl;
 ~~~
 
-2.
+2. ||
+
 ~~~cpp
 string s1 = "ABC";
 string s2;
@@ -23,66 +24,66 @@ s2.assign(s1, 3, 2);
 cout << '|' << s2 << '|' << endl;
 ~~~
 
-3.	
+3.	|AB|
 ~~~cpp
 string s;
 s.assign("ABC", 2);
 cout << '|' << s << '|' << endl;
 ~~~
 
-4.	
+4.	|AA|
 ~~~cpp
 string s;
 s.assign(2, 65);
 cout << '|' << s << '|' << endl;
 ~~~
 
-5.	
+5.	|AAAA|
 ~~~cpp
 string s;
 s.assign(4, '\101');
 cout << '|' << s << '|' << endl;
 ~~~
 
-6.	
+6.	|BBBB|
 ~~~cpp
 string s;
 s.assign(4, '\x42');
 cout << '|' << s << '|' << endl;
 ~~~
 
-7.	
+7.	|ABC|
 ~~~cpp
 string s = string("A") + string("BC");
 cout << '|' << s << '|' << endl;
 ~~~
 
-8.	
+8.	|ABC|
 ~~~cpp
 string s = string("A") + "BC";
 cout << '|' << s << '|' << endl;
 ~~~
 
-9.	
+9.	|ABC|
 ~~~cpp
 string s = 'A' + string("BC");
 cout << '|' << s << '|' << endl;
 ~~~
 
-10.	
+10.	Erreur de compilation
 ~~~cpp
 string s = "A" + "BC";
 cout << '|' << s << '|' << endl;
 ~~~
 
-11.	
+11.	|ABC|
 ~~~cpp
 string s = "AB";
 s += 'C';
 cout << '|' << s << '|' << endl;
 ~~~
 
-12.	
+12.	|123|
 ~~~cpp
 string s1 = "";
 string s2 = "123";
@@ -90,7 +91,7 @@ s1.append(s2);
 cout << '|' << s1 << '|' << endl;
 ~~~
 
-13.	
+13.	|23|
 ~~~cpp
 string s1 = "";
 string s2 = "123";
@@ -98,14 +99,14 @@ s1.append(s2, 1, 3);
 cout << '|' << s1 << '|' << endl;
 ~~~
 
-14.	
+14.	|12|
 ~~~cpp
 string s;
 s.append("123", 2);
 cout << '|' << s << '|' << endl;
 ~~~
 
-15.	
+15.	|22|
 ~~~cpp
 string s;
 s.append(2, '2');

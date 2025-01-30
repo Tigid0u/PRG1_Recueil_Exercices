@@ -16,22 +16,22 @@ L’utilisateur saisi dans l’ordre les informations suivantes lorsque le progr
 
 
 
-| Instruction 	                                       |  Buffer           | Commentaire                              |
-|-------------------------------------------------------|-------------------|------------------------------------------|
-|`cout << "entrer des valeurs : ";`                     |                   |                                          |
-|`while(cin.get() != '\n');`                            |                   |                                          |
-|`cout << endl;`                                        |                   |                                          |
-|`cin  >> a;`                                           |                   |                                          |
-|`cin  >> b;`                                           |                   |                                          |
-|`cin.ignore(numeric_limits<streamsize>::max(), '\n');` |                   |                                          |
-|`cin  >> x;`                                           |                   |                                          |
-|`cin  >> y;`                                           |                   |                                          |
-|`cout << "voulez-vous sauver [o/n] : ";`               |                   |                                          |
-|`cin  >> c;`                                           |                   |                                          |
-|`cout << "sauver : " << c << endl;`                    |                   |                                          |
-|`cin  >> a;`                                           |                   |                                          |
-|`cin  >> b;`                                           |                   |                                          |
-|`cin  >> x;`                                           |                   |                                          |
+| Instruction                                            | Buffer     | Commentaire |
+| ------------------------------------------------------ | ---------- | ----------- |
+| `cout << "entrer des valeurs : ";`                     | vide       |             |
+| `while(cin.get() != '\n');`                            | 45_23_21.2 |             |
+| `cout << endl;`                                        |            |             |
+| `cin  >> a;`                                           |            |             |
+| `cin  >> b;`                                           |            |             |
+| `cin.ignore(numeric_limits<streamsize>::max(), '\n');` |            |             |
+| `cin  >> x;`                                           |            |             |
+| `cin  >> y;`                                           |            |             |
+| `cout << "voulez-vous sauver [o/n] : ";`               |            |             |
+| `cin  >> c;`                                           |            |             |
+| `cout << "sauver : " << c << endl;`                    |            |             |
+| `cin  >> a;`                                           |            |             |
+| `cin  >> b;`                                           |            |             |
+| `cin  >> x;`                                           |            |             |
 
 **Documentation :** [cin.get](https://cplusplus.com/reference/istream/istream/get) et [cin.ignore](https://cplusplus.com/reference/istream/istream/ignore)
 

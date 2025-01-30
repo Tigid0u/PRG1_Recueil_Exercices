@@ -26,7 +26,7 @@ Hauteur du triangle (h > 0) : 7
 <details>
 <summary>Solution</summary>
 
-~~~cpp
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -53,6 +53,6 @@ int main() {
       cout << endl;
    }
 }
-~~~
+```
 </details>
 

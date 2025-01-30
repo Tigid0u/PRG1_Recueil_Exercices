@@ -4,6 +4,7 @@ Ecrire une fonction C++ qui prend en paramètre une chaîne de caractères str (
 - le caractère médian de str, si str comporte un nombre impair de caractères
 - les 2 caractères médians de str, si str comporte un nombre pair de caractères
   
+
 Exemples  
 `milieu("ABC") renvoie "B"; milieu("ABCD") renvoie "BC"`
 
